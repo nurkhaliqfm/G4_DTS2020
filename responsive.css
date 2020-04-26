@@ -27,6 +27,13 @@
   float: left;
   width: 100%;
 }
+  
+input, textarea {
+  width:300px;
+  margin-top:10px;
+  padding:10px;
+  border:1px solid #dee7ec;
+}
 
 footer img{
   width: 50px;
