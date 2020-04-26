@@ -79,6 +79,10 @@ header {
   height: 490px;
 }
 
+.card a{
+  line-height: 200px;
+}
+
 .list {
   float: left;
   width: 20%;
