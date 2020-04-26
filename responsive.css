@@ -1,0 +1,39 @@
+@media all and (max-width: 1000px) {
+.list {
+  width: 50%;
+}
+}
+
+
+@media all and (max-width: 670px) {
+.list {
+  width: 100%;
+  display: block;
+}
+
+.support {
+  width: 100%;
+  display: block;
+}
+.menu-icon{
+  display: block;
+}
+
+.header-right{
+  display: none;
+}
+
+.bagian-extra2 {
+  float: left;
+  width: 100%;
+}
+
+footer img{
+  width: 50px;
+}
+
+footer{
+  text-align: left;
+}
+
+}
