@@ -167,9 +167,11 @@ header {
 }
 
 input, textarea {
-  width:300px;
+  width:400px;
   margin-top:10px;
-  padding:10px;
+  margin-bottom:10px;
+  padding:20px;
+  font-size:18px;
   border:1px solid #dee7ec;
 }
 
@@ -179,8 +181,16 @@ input, textarea {
 }
 
 .contact-submit {
-  background-color: green;
-  color: white;
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.contact-submit:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
 }
 
 footer img {
