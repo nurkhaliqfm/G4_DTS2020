@@ -59,13 +59,21 @@ header {
 }
 
 .menu-icon {
+  cursor: pointer;
   color: black;
   float: right;
-  font-size: 20px;
+  font-size: 35px;
   height: 65px;
   line-height: 65px;
-  padding: 0 25px;
   display: none;
+}
+
+.menu-icon span {
+  transition: all .4s ease-in-out;
+}
+
+.menu-icon:hover span {
+  transform: rotate(180deg) scale(-1);
 }
 
 .members-wrapper {
