@@ -6,7 +6,12 @@
 
 
 @media all and (max-width: 670px) {
+.members-wrapper {
+  padding-top: 100px;
+}
+  
 .list {
+  margin-top: 1px;
   width: 100%;
   display: block;
 }
