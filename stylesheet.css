@@ -78,7 +78,6 @@ header {
 
 .members-wrapper {
   padding-bottom: 30px;
-  padding-top:100px;
   background-color: whitesmoke;
   border-bottom: 1px solid #eee;
   text-align: center;
@@ -97,6 +96,7 @@ header {
 .list {
   float: left;
   width: 20%;
+  margin-top: 80px;
   padding: 10px 8px;
   background-color:whitesmoke;
 }
